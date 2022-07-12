@@ -30,12 +30,21 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # 一个约束布局 减少嵌套
+  # https://github.com/hackware1993/Flutter_ConstraintLayout/blob/master/README_CN.md
   flutter_constraintlayout: ^1.6.2-stable
+
+  #https://github.com/jonataslaw/getx getx
+  get: 5.0.0-beta.51
+
+  # http https://pub.flutter-io.cn/packages/dio
+  dio: ^4.0.6
+  cookie_jar: ^3.0.1
+  dio_cookie_manager: ^2.0.0
 
 dev_dependencies:
   flutter_test:
